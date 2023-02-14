@@ -28,7 +28,10 @@
 //! ```
 //!
 
-use egui::{style, Color32};
+use bevy_egui::{
+    egui,
+    egui::{style, Color32},
+};
 
 // TODO: take a reference to a `Theme` here if we get a better reason to bump
 // the major version
